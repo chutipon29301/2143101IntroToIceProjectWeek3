@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		847509931F5E823700AB9A49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847509921F5E823700AB9A49 /* AppDelegate.swift */; };
+		847509951F5E823700AB9A49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847509941F5E823700AB9A49 /* ViewController.swift */; };
+		847509981F5E823700AB9A49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847509961F5E823700AB9A49 /* Main.storyboard */; };
+		8475099A1F5E823700AB9A49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847509991F5E823700AB9A49 /* Assets.xcassets */; };
+		8475099D1F5E823700AB9A49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8475099B1F5E823700AB9A49 /* LaunchScreen.storyboard */; };
+		847509A81F5E823700AB9A49 /* FoodBillDividerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847509A71F5E823700AB9A49 /* FoodBillDividerTests.swift */; };
+		847509B31F5E823700AB9A49 /* FoodBillDividerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847509B21F5E823700AB9A49 /* FoodBillDividerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		847509A41F5E823700AB9A49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 847509871F5E823700AB9A49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8475098E1F5E823700AB9A49;
+			remoteInfo = FoodBillDivider;
+		};
+		847509AF1F5E823700AB9A49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 847509871F5E823700AB9A49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8475098E1F5E823700AB9A49;
+			remoteInfo = FoodBillDivider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8475098F1F5E823700AB9A49 /* FoodBillDivider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodBillDivider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		847509921F5E823700AB9A49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		847509941F5E823700AB9A49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		847509971F5E823700AB9A49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		847509991F5E823700AB9A49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8475099C1F5E823700AB9A49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8475099E1F5E823700AB9A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847509A31F5E823700AB9A49 /* FoodBillDividerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodBillDividerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		847509A71F5E823700AB9A49 /* FoodBillDividerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodBillDividerTests.swift; sourceTree = "<group>"; };
+		847509A91F5E823700AB9A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847509AE1F5E823700AB9A49 /* FoodBillDividerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodBillDividerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		847509B21F5E823700AB9A49 /* FoodBillDividerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodBillDividerUITests.swift; sourceTree = "<group>"; };
+		847509B41F5E823700AB9A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8475098C1F5E823700AB9A49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847509A01F5E823700AB9A49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847509AB1F5E823700AB9A49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		847509861F5E823700AB9A49 = {
+			isa = PBXGroup;
+			children = (
+				847509911F5E823700AB9A49 /* FoodBillDivider */,
+				847509A61F5E823700AB9A49 /* FoodBillDividerTests */,
+				847509B11F5E823700AB9A49 /* FoodBillDividerUITests */,
+				847509901F5E823700AB9A49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		847509901F5E823700AB9A49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8475098F1F5E823700AB9A49 /* FoodBillDivider.app */,
+				847509A31F5E823700AB9A49 /* FoodBillDividerTests.xctest */,
+				847509AE1F5E823700AB9A49 /* FoodBillDividerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		847509911F5E823700AB9A49 /* FoodBillDivider */ = {
+			isa = PBXGroup;
+			children = (
+				847509921F5E823700AB9A49 /* AppDelegate.swift */,
+				847509941F5E823700AB9A49 /* ViewController.swift */,
+				847509961F5E823700AB9A49 /* Main.storyboard */,
+				847509991F5E823700AB9A49 /* Assets.xcassets */,
+				8475099B1F5E823700AB9A49 /* LaunchScreen.storyboard */,
+				8475099E1F5E823700AB9A49 /* Info.plist */,
+			);
+			path = FoodBillDivider;
+			sourceTree = "<group>";
+		};
+		847509A61F5E823700AB9A49 /* FoodBillDividerTests */ = {
+			isa = PBXGroup;
+			children = (
+				847509A71F5E823700AB9A49 /* FoodBillDividerTests.swift */,
+				847509A91F5E823700AB9A49 /* Info.plist */,
+			);
+			path = FoodBillDividerTests;
+			sourceTree = "<group>";
+		};
+		847509B11F5E823700AB9A49 /* FoodBillDividerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				847509B21F5E823700AB9A49 /* FoodBillDividerUITests.swift */,
+				847509B41F5E823700AB9A49 /* Info.plist */,
+			);
+			path = FoodBillDividerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8475098E1F5E823700AB9A49 /* FoodBillDivider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847509B71F5E823700AB9A49 /* Build configuration list for PBXNativeTarget "FoodBillDivider" */;
+			buildPhases = (
+				8475098B1F5E823700AB9A49 /* Sources */,
+				8475098C1F5E823700AB9A49 /* Frameworks */,
+				8475098D1F5E823700AB9A49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodBillDivider;
+			productName = FoodBillDivider;
+			productReference = 8475098F1F5E823700AB9A49 /* FoodBillDivider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		847509A21F5E823700AB9A49 /* FoodBillDividerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847509BA1F5E823700AB9A49 /* Build configuration list for PBXNativeTarget "FoodBillDividerTests" */;
+			buildPhases = (
+				8475099F1F5E823700AB9A49 /* Sources */,
+				847509A01F5E823700AB9A49 /* Frameworks */,
+				847509A11F5E823700AB9A49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				847509A51F5E823700AB9A49 /* PBXTargetDependency */,
+			);
+			name = FoodBillDividerTests;
+			productName = FoodBillDividerTests;
+			productReference = 847509A31F5E823700AB9A49 /* FoodBillDividerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		847509AD1F5E823700AB9A49 /* FoodBillDividerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847509BD1F5E823700AB9A49 /* Build configuration list for PBXNativeTarget "FoodBillDividerUITests" */;
+			buildPhases = (
+				847509AA1F5E823700AB9A49 /* Sources */,
+				847509AB1F5E823700AB9A49 /* Frameworks */,
+				847509AC1F5E823700AB9A49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				847509B01F5E823700AB9A49 /* PBXTargetDependency */,
+			);
+			name = FoodBillDividerUITests;
+			productName = FoodBillDividerUITests;
+			productReference = 847509AE1F5E823700AB9A49 /* FoodBillDividerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		847509871F5E823700AB9A49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = MonkeyIT;
+				TargetAttributes = {
+					8475098E1F5E823700AB9A49 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = H5J9UB8D3F;
+						ProvisioningStyle = Automatic;
+					};
+					847509A21F5E823700AB9A49 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = H5J9UB8D3F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8475098E1F5E823700AB9A49;
+					};
+					847509AD1F5E823700AB9A49 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = H5J9UB8D3F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8475098E1F5E823700AB9A49;
+					};
+				};
+			};
+			buildConfigurationList = 8475098A1F5E823700AB9A49 /* Build configuration list for PBXProject "FoodBillDivider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 847509861F5E823700AB9A49;
+			productRefGroup = 847509901F5E823700AB9A49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8475098E1F5E823700AB9A49 /* FoodBillDivider */,
+				847509A21F5E823700AB9A49 /* FoodBillDividerTests */,
+				847509AD1F5E823700AB9A49 /* FoodBillDividerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8475098D1F5E823700AB9A49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8475099D1F5E823700AB9A49 /* LaunchScreen.storyboard in Resources */,
+				8475099A1F5E823700AB9A49 /* Assets.xcassets in Resources */,
+				847509981F5E823700AB9A49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847509A11F5E823700AB9A49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847509AC1F5E823700AB9A49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8475098B1F5E823700AB9A49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847509951F5E823700AB9A49 /* ViewController.swift in Sources */,
+				847509931F5E823700AB9A49 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8475099F1F5E823700AB9A49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847509A81F5E823700AB9A49 /* FoodBillDividerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847509AA1F5E823700AB9A49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847509B31F5E823700AB9A49 /* FoodBillDividerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		847509A51F5E823700AB9A49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8475098E1F5E823700AB9A49 /* FoodBillDivider */;
+			targetProxy = 847509A41F5E823700AB9A49 /* PBXContainerItemProxy */;
+		};
+		847509B01F5E823700AB9A49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8475098E1F5E823700AB9A49 /* FoodBillDivider */;
+			targetProxy = 847509AF1F5E823700AB9A49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		847509961F5E823700AB9A49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847509971F5E823700AB9A49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8475099B1F5E823700AB9A49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8475099C1F5E823700AB9A49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		847509B51F5E823700AB9A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		847509B61F5E823700AB9A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		847509B81F5E823700AB9A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H5J9UB8D3F;
+				INFOPLIST_FILE = FoodBillDivider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monkey-monkey.FoodBillDivider";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		847509B91F5E823700AB9A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H5J9UB8D3F;
+				INFOPLIST_FILE = FoodBillDivider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monkey-monkey.FoodBillDivider";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		847509BB1F5E823700AB9A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H5J9UB8D3F;
+				INFOPLIST_FILE = FoodBillDividerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monkey-monkey.FoodBillDividerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodBillDivider.app/FoodBillDivider";
+			};
+			name = Debug;
+		};
+		847509BC1F5E823700AB9A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H5J9UB8D3F;
+				INFOPLIST_FILE = FoodBillDividerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monkey-monkey.FoodBillDividerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodBillDivider.app/FoodBillDivider";
+			};
+			name = Release;
+		};
+		847509BE1F5E823700AB9A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = H5J9UB8D3F;
+				INFOPLIST_FILE = FoodBillDividerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monkey-monkey.FoodBillDividerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FoodBillDivider;
+			};
+			name = Debug;
+		};
+		847509BF1F5E823700AB9A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = H5J9UB8D3F;
+				INFOPLIST_FILE = FoodBillDividerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monkey-monkey.FoodBillDividerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FoodBillDivider;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8475098A1F5E823700AB9A49 /* Build configuration list for PBXProject "FoodBillDivider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847509B51F5E823700AB9A49 /* Debug */,
+				847509B61F5E823700AB9A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847509B71F5E823700AB9A49 /* Build configuration list for PBXNativeTarget "FoodBillDivider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847509B81F5E823700AB9A49 /* Debug */,
+				847509B91F5E823700AB9A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		847509BA1F5E823700AB9A49 /* Build configuration list for PBXNativeTarget "FoodBillDividerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847509BB1F5E823700AB9A49 /* Debug */,
+				847509BC1F5E823700AB9A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		847509BD1F5E823700AB9A49 /* Build configuration list for PBXNativeTarget "FoodBillDividerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847509BE1F5E823700AB9A49 /* Debug */,
+				847509BF1F5E823700AB9A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 847509871F5E823700AB9A49 /* Project object */;
+}
