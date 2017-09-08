@@ -10,6 +10,7 @@ import UIKit
 //import RealmSwift
 
 class HistoryTableViewController: UITableViewController {
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 10
     }
