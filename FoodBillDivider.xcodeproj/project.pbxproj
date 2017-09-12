@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840006981F67AA8100F17EB9 /* HistoryDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840006971F67AA8100F17EB9 /* HistoryDetail.swift */; };
 		847509931F5E823700AB9A49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847509921F5E823700AB9A49 /* AppDelegate.swift */; };
 		847509951F5E823700AB9A49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847509941F5E823700AB9A49 /* ViewController.swift */; };
 		847509981F5E823700AB9A49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847509961F5E823700AB9A49 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 		847509A81F5E823700AB9A49 /* FoodBillDividerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847509A71F5E823700AB9A49 /* FoodBillDividerTests.swift */; };
 		847509B31F5E823700AB9A49 /* FoodBillDividerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847509B21F5E823700AB9A49 /* FoodBillDividerUITests.swift */; };
 		847509C11F5E853D00AB9A49 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847509C01F5E853D00AB9A49 /* Calculator.swift */; };
+		847C70881F663FA600EB831E /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847C70871F663FA600EB831E /* data.swift */; };
 		84B795061F5E8A4500D47FE4 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B795051F5E8A4500D47FE4 /* History.swift */; };
 		93FF8A7336808592C61C3410 /* Pods_FoodBillDividerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99A73681DF17C51DBA2DC091 /* Pods_FoodBillDividerTests.framework */; };
 		BB9053EF0EB26E4850E62424 /* Pods_FoodBillDivider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D26FD0A1CDA13E033FEA109F /* Pods_FoodBillDivider.framework */; };
@@ -44,6 +46,7 @@
 		41A60C87987F5E6DEAF2F7F2 /* Pods-FoodBillDivider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodBillDivider.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodBillDivider/Pods-FoodBillDivider.release.xcconfig"; sourceTree = "<group>"; };
 		663B7321A0A28500E3EF8E63 /* Pods-FoodBillDivider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodBillDivider.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodBillDivider/Pods-FoodBillDivider.debug.xcconfig"; sourceTree = "<group>"; };
 		80969DD4B300878F1E1A5DA8 /* Pods_FoodBillDividerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodBillDividerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		840006971F67AA8100F17EB9 /* HistoryDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryDetail.swift; sourceTree = "<group>"; };
 		8475098F1F5E823700AB9A49 /* FoodBillDivider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodBillDivider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		847509921F5E823700AB9A49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		847509941F5E823700AB9A49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +61,7 @@
 		847509B21F5E823700AB9A49 /* FoodBillDividerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodBillDividerUITests.swift; sourceTree = "<group>"; };
 		847509B41F5E823700AB9A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		847509C01F5E853D00AB9A49 /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		847C70871F663FA600EB831E /* data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
 		84B795051F5E8A4500D47FE4 /* History.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		89E39429E6A1D291ABC83179 /* Pods-FoodBillDividerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodBillDividerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodBillDividerTests/Pods-FoodBillDividerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		99A73681DF17C51DBA2DC091 /* Pods_FoodBillDividerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodBillDividerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,7 +126,9 @@
 				847509941F5E823700AB9A49 /* ViewController.swift */,
 				847509961F5E823700AB9A49 /* Main.storyboard */,
 				847509C01F5E853D00AB9A49 /* Calculator.swift */,
+				847C70871F663FA600EB831E /* data.swift */,
 				84B795051F5E8A4500D47FE4 /* History.swift */,
+				840006971F67AA8100F17EB9 /* HistoryDetail.swift */,
 				847509991F5E823700AB9A49 /* Assets.xcassets */,
 				8475099B1F5E823700AB9A49 /* LaunchScreen.storyboard */,
 				8475099E1F5E823700AB9A49 /* Info.plist */,
@@ -458,7 +464,9 @@
 				847509951F5E823700AB9A49 /* ViewController.swift in Sources */,
 				847509931F5E823700AB9A49 /* AppDelegate.swift in Sources */,
 				84B795061F5E8A4500D47FE4 /* History.swift in Sources */,
+				847C70881F663FA600EB831E /* data.swift in Sources */,
 				847509C11F5E853D00AB9A49 /* Calculator.swift in Sources */,
+				840006981F67AA8100F17EB9 /* HistoryDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

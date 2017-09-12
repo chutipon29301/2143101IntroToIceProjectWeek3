@@ -85,19 +85,88 @@ class CalculatorTableViewController: UITableViewController {
         sender.text = ""
     }
     
+    @IBAction func discountTextFieldDidChange(_ sender: UITextField) {
+        calculate()
+    }
+    
     func calculate() {
         let resultCell = tableView.cellForRow(at: IndexPath(row: rowCount - 1, section: 0)) as! ActionTableViewCell
-        var priceSum = 0
-        var personSum = 0
+        var priceSum = 0.0
+        var personSum = 0.0
         for i in 1..<rowCount - 2 {
             let detailCell = tableView.cellForRow(at: IndexPath(row: i, section: 0)) as! InputTableViewCell
-            priceSum += (int)(detailCell.moneyTextField.text)!
-            personSum += (int)(detailCell.moneyTextField.text)!
+            if let price = Double(detailCell.moneyTextField.text!){
+                priceSum += price
+            }
+            if let person = Double(detailCell.shareTextField.text!){
+                personSum += person
+            }
         }
-        resultCell.totalValue.text = "Hello World"
-        tableView.beginUpdates()
-        tableView.reloadRows(at: [IndexPath(row: rowCount - 1, section: 0)], with: .automatic)
-        tableView.endUpdates()
+        let vat = (resultCell.vatSwitch.isOn) ? 0.07 : 0.0
+        let serviceCharge = (resultCell.serviceChargeSwitch.isOn) ? 0.1 : 0.0
+        let vatSum = priceSum * vat
+        let serviceChageSum = priceSum * serviceCharge
+        var discountSum: Double
+        if let discount = Double(resultCell.discountLabel.text!) {
+            discountSum = priceSum * (discount/100)
+        }else{
+            discountSum = 0.0
+        }
+        let totalValue = (priceSum + vatSum + serviceChageSum - discountSum) / personSum
+        resultCell.totalValue.text = String(totalValue)
+        
+        self.tableView.reloadData()
+    }
+    
+    @IBAction func save(_ sender: Any) {
+        let resultCell = tableView.cellForRow(at: IndexPath(row: rowCount - 1, section: 0)) as! ActionTableViewCell
+        let record = Record()
+        var priceSum = 0.0
+        var personSum = 0.0
+        for i in 1..<rowCount - 2 {
+            let detailCell = tableView.cellForRow(at: IndexPath(row: i, section: 0)) as! InputTableViewCell
+            let line = Line()
+            if let price = Int(detailCell.moneyTextField.text!){
+                priceSum += Double(price)
+                line.cost = price
+            }
+            if let person = Int(detailCell.shareTextField.text!){
+                personSum += Double(person)
+                line.share = person
+            }
+            record.lists.append(line)
+        }
+        let vat = (resultCell.vatSwitch.isOn) ? 0.07 : 0.0
+        let serviceCharge = (resultCell.serviceChargeSwitch.isOn) ? 0.1 : 0.0
+        let vatSum = priceSum * vat
+        let serviceChageSum = priceSum * serviceCharge
+        var discountSum: Double
+        if let discount = Int(resultCell.discountLabel.text!) {
+            discountSum = priceSum * (Double(discount)/100)
+            record.discount = discount
+        }else{
+            discountSum = 0.0
+            record.discount = 0
+        }
+        record.sum = (priceSum + vatSum + serviceChageSum - discountSum) / personSum
+        let noteCell = tableView.cellForRow(at: IndexPath(row: rowCount - 2, section: 0)) as! NoteTableViewCell
+        
+        if let text = noteCell.noteTextField.text {
+            record.note = text
+        }
+        
+        record.isVatCalculate = resultCell.vatSwitch.isOn
+        record.isServiceChangeCalculate = resultCell.serviceChargeSwitch.isOn
+        
+        let realm = try! Realm()
+        
+        try! realm.write {
+            realm.add(record)
+        }
+    }
+    
+    @IBAction func refreshPage(_ sender: Any) {
+        calculate()
     }
     
 }
@@ -112,9 +181,13 @@ class InputTableViewCell: UITableViewCell {
 }
 
 class NoteTableViewCell: UITableViewCell {
+    @IBOutlet weak var noteTextField: UITextField!
     
 }
 
 class ActionTableViewCell: UITableViewCell {
     @IBOutlet weak var totalValue: UILabel!
+    @IBOutlet weak var vatSwitch: UISwitch!
+    @IBOutlet weak var serviceChargeSwitch: UISwitch!
+    @IBOutlet weak var discountLabel: UITextField!
 }
